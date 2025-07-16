@@ -11,12 +11,13 @@ public class Main {
     public static void main(String[] args) {
         List<String> list= Arrays.asList("a","b","c");
         List<String> list2=List.of("a","b","c");
+        List<String> list5=List.of("a","b","c");
         System.out.println(list);
         System.out.println(list2);
 
         String[] strArr={"a","b","c"};
         Stream<String> list3=Arrays.stream(strArr).filter(s->!s.startsWith("a"));
-        List<String> list4=Arrays.stream(strArr).collect(Collectors.);
+
 
 
 

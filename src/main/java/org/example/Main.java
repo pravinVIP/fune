@@ -16,6 +16,7 @@ public class Main {
         System.out.println(list2);
 
         String[] strArr={"a","b","c"};
+        //hello
         Stream<String> list3=Arrays.stream(strArr).filter(s->!s.startsWith("a"));
 
 

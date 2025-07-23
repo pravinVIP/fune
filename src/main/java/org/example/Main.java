@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         List<String> list= Arrays.asList("a","b","c");
         List<String> list2=List.of("a","b","c");
-        List<String> list5=List.of("a","b","c");
+        List<String> list5=List.of("a","b","z");
         System.out.println(list);
         System.out.println(list2);
 
